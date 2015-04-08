@@ -1,5 +1,9 @@
-Tim Oien Intern Project Stylesheet
+/* Tim Oien Intern Project Stylesheet */
 
-body {
-	background-color: blue;
+#tif-button {
+	background-image: url("trackif.png");
+}
+#panel {
+	padding: 50px;
+	display: none;
 }
