@@ -1,0 +1,27 @@
+/* Tim Oien Intern Project Stylesheet */
+
+#tif-button {
+	background-image: url("trackif.PNG");
+	width: 30px;
+	height: 30px;
+	
+	
+}
+#panel {
+	display: none;
+	z-index: 10000;
+	overflow: visible;
+	position: absolute;
+
+}
+/*
+div#panel {
+	border-style: solid;
+}
+*/
+.display-Image {
+	z-index: 10000;
+}
+body {
+	bakground-color: red;
+}
