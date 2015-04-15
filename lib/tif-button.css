@@ -7,11 +7,12 @@
 	
 	
 }
-#panel {
-	display: none;
+
+.tif-chart-wrapper {
 	z-index: 10000;
 	overflow: visible;
 	position: absolute;
+	background-color: pink;
 
 }
 /*
