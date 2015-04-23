@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+
+ul.sf-menu li ul li div#navContainer {background:url(/text/navigation/bg3.gif) repeat-y left top; position:relative; text-align:left}
+ul.sf-menu li ul li div#navContainer div {margin:15px 10px 10px 12px; width:162px; display:inline-block; vertical-align:top; padding:0; text-align:left} /* 2.13.2015: reduce bottom margin 10px to 0px */
+ul.sf-menu li ul li div#navContainer div.wrapperBg { width:750px; padding:0; margin:0 0 0 0;}
+ul.sf-menu li ul li div#navContainer dl {margin-bottom:15px;}
+ul.sf-menu li ul li div#navContainer dd {list-style:none; color:#666; font-size:12px; line-height:1.2; text-align:left!important; width:161px; margin-top:7px;} /* 2.13.2015: increase width 160px to 161px */
+ul.sf-menu li ul li div#navContainer dt {color:#666;width: 161px; line-height:1; font-size:13px; font-weight:normal;font-family:SofiaProBold, Verdana, Geneva, Helvetica, sans-serif;}
+ul.sf-menu li ul li div#navContainer dl.nosubs dt {margin-bottom: 10px}
+
+ul.sf-menu li ul li div#navContainer dt a {color:#666;font-size:13px; text-decoration:none; font-family:SofiaProBold, Verdana, Geneva, Helvetica, sans-serif; display:inline}
+ul.sf-menu li ul li div#navContainer dd a {color:#666; text-decoration:none; font-family:SofiaProLight, Verdana, Geneva, Helvetica, sans-serif; display:inline; font-size:12px}
+ul.sf-menu li ul li div#navContainer dt a:hover {color:#1b9990!important; text-decoration:underline}
+ul.sf-menu li ul li div#navContainer dd a:hover {color:#1b9990!important; text-decoration:underline}
+ul.sf-menu li ul li div#navContainer div.navContainerArticle {text-align:center; border:none; margin:0; width:201px; padding: 0; color:#666!important; font-size:11px; line-height:1.4}
+ul.sf-menu li ul li div#navContainer div.navContainerArticle div.navContainerArticlePadding { padding: 15px 15px 10px 15px; width: 155px;margin: 0; } 
+
+ul.sf-menu li ul li div#navContainer div.navContainerArticle a {color:#666; font-family:SofiaProBold, Verdana, Geneva, Helvetica, sans-serif;}
+ul.sf-menu li ul li div#navContainer div.navContainerArticle a:hover {color:#1b9990!important; text-decoration:underline;}
+
+ul.sf-menu li ul li div#navContainer div.navContainerArticle a h3 {font-weight: normal;text-transform:uppercase; margin:10px 0 7px 0; font-size:12px;}
+
+
+
+ul.sf-menu li ul li div#navContainer div.navContainerArticle p {padding:0px; color: #333!important;}
+ul.sf-menu li ul li div#navContainer div.clear { clear:both; margin: 0; padding: 0; height: 1px;}
+
+ul.sf-menu li div a.sf-top-level-link, ul.sf-menu li div a.sf-top-level-link span {font-size:14px !important; padding:0px 12px 0px 0px !important;}
+ul.sf-menu>li.first {margin:0 0 0 14px;}

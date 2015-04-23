@@ -1,0 +1,634 @@
+/*
+
+Filename: wm_v1.css 
+
+PLEASE: when you update this file, go to /worldmarket-content-production/text/pixels/header_pixels.html and update the 
+timestamp. this will force it to be read by users (no delay) overrides are at bottom of page
+
+Modification History:
+10.10.2014 - ekw - Added comments to top of file.
+
+*/
+
+charset "utf-8";
+/* CSS Document */
+.cmsslot {position:relative;}
+.hoverslot {position:absolute; filter: none !important;}
+.hoverstatic {position:absolute; filter: none !important;}
+.contentslot {position:relative;}
+.staticslot {display:block !important}
+.promo4slot-gps {padding:20px 0 5px 0; text-align:center}
+.promoSection2 {color:#1b9990; font-size:75%; position:relative; width:500px; text-align:center}
+.promoSection2 strong {font-size:130%}
+.promoSection2 a {color:#1b9990; text-decoration:none}
+h3.social {position:relative; padding:10px 0 0 15px !important; margin-bottom:0 !important}
+.footerSearch {display:none}
+.cpwm_pinit {width:95px}
+.promoSection {position:relative; min-height:14px;}
+
+.footerTextBlock {padding:20px 0}
+.wrapper {min-width:1000px}
+#footerWrap {border-bottom:2px solid #757575}
+
+/*Social Icons. Updated 11.13.2012 */
+.footerSection .navsearchform {padding-top:5px}
+#socialIcons {text-align:left; margin-bottom:17px;}
+#socialIcons h3 {font-size:90%; font-weight:normal; font-style: italic; font-size: 12px; margin-bottom:7px}
+#socialIcons a {display:inline-block; vertical-align:middle; width:25px; height:25px; background:url(/images/worldmarket/en_us/global/globalgraphics/social-icons-sp.png) no-repeat; margin:0 2px 0 2px}
+#socialIcons [title="Facebook"] {background-position:left top}
+#socialIcons [title="Twitter"] {background-position:-30px top}
+#socialIcons [title="Pinterest"] {background-position:-60px top}
+#socialIcons [title="YouTube"] {background-position:-90px top}
+#socialIcons [title="Plus"] {background-position:-120px top}
+
+
+/*Landing Page - Email Page*/
+td.contentbg .lp-hero {background:#FFF; padding:20px}
+td.contentbg .lp-hero .banner {text-align:center}
+td.contentbg .lp-hero .banner img {padding:2px; background:#FFF; border:1px solid #e6e6e6}
+td.contentbg .lp-hero .coupontitle {font-family: SofiaProRegular, Verdana, Geneva, Helvetica, sans-serif; font-size:140%; font-weight: normal; color:#891a25; margin:20px 0 15px 35px; text-transform:uppercase; line-height:1.1}
+td.contentbg .headline-coupon {background:url(/images/content-slots/articles/h1_bg.png) no-repeat; height:63px; font-size:70%; margin:10px 0;}
+td.contentbg .headline-coupon h2 {font:290%/1.3 Memimas-Medium, serif; color:#1B9990; font-weight:normal; padding:10px 15px}
+td.contentbg .affilate-block {margin:10px 0 30px 0}
+td.contentbg .affilate-block img {margin:0 1px 2px 1px}
+td.contentbg .lp-hero h2 {font-family: SofiaProRegular, Verdana, Geneva, Helvetica, sans-serif; font-size:140%; font-weight: normal; color:#891a25; margin:20px 0 15px 35px; text-transform:uppercase; line-height:1.1}
+td.contentbg .lp-hero h3 {font-family: SofiaProRegular, Verdana, Geneva, Helvetica, sans-serif; font-size:120%; font-weight: normal; color:#891a25; margin:0 0 2px 0; line-height:1.1}
+td.contentbg .lp-hero .list {margin:0 3px 15px 3px}
+td.contentbg .lp-hero .list li {list-style:none; background:url(/text/misc-pages/misc-images/list-arrow.gif) no-repeat left; padding-left:10px}
+td.contentbg .lp-hero .uppersize {font-size:115%; line-height:1.4}
+td.contentbg .lp-hero .smallersize {font-size:90%; line-height:1.5}
+td.contentbg .lp-hero .content {padding:0 35px 30px 35px; font-size:75%; color:#666; line-height:1.6; width:870px; min-width:870px; min-height:inherit}
+td.contentbg .lp-hero .content p {margin-bottom:10px}
+td.contentbg .lp-hero .content a {color:#666}
+td.contentbg .lp-hero .note {clear:both; margin-bottom:20px; line-height:1.3}
+td.contentbg .lp-hero .content .disclaimer {font-size:90%; line-height:1.4; padding-right:25px; margin:40px 0 10px 0}
+td.contentbg .lp-hero .sidebar {font-size:75%; color:#666; margin:0 40px 0 50px; float:right; width:410px}
+td.contentbg .lp-hero .apply-online-now {float:left; margin-top:7px; margin-bottom:40px}
+td.contentbg .lp-hero .profile-links {float:left; text-transform:uppercase; color:#666; margin:5px 0 0 15px; line-height:1.7}
+td.contentbg .lp-hero .profile-links a {color:#666; text-decoration:none; background:url(img/profile-links-arrows.gif) no-repeat right; padding-right:6px}
+td.contentbg .lp-hero .eventintro {font-size:110%; line-height:1.4; padding-bottom:20px; border-bottom:1px solid #999}
+td.contentbg .lp-hero .event {padding-top:20px}
+td.contentbg .lp-hero .event td {vertical-align:top; padding-bottom:20px}
+td.contentbg .lp-hero .event td.date {color:#891a25; font-size:140%; width:160px; padding-right:20px; line-height:1.2}
+td.contentbg .lp-hero .event h3 {padding-top:4px}
+td.contentbg .lp-hero .stateavailability {display:none; border-right:1px solid #e5e5e5; padding-right:20px}
+td.contentbg .lp-hero .stateavailability p {margin-bottom:15px; margin-top:20px}
+td.contentbg .lp-hero .checkyourstate {background:url(/text/misc-pages/misc-images/toggleplus.gif) no-repeat left 6px; padding-left:10px}
+td.contentbg .lp-hero .green-block {background:#eceec3; width:350px; padding:1px; color:#695609; min-height:112px; border:10px solid #c6d46e; margin-bottom:10px; margin-right:0px}
+td.contentbg .lp-hero .green-block img {float:left; margin-right:17px}
+td.contentbg .lp-hero .green-block p {padding:12px 0 0 0; display:block}
+td.contentbg .lp-hero .green-block h3 {color:#695609; margin-bottom:5px}
+td.contentbg .lp-hero .green-block a {color:#695609; text-decoration:none}
+td.contentbg .lp-hero .greenside {margin-right:0; margin-top:-33px}
+td.contentbg .lp-hero .storelocator {min-height:200px}
+td.contentbg .lp-hero .storelocator legend {font-size:140%; font-weight: normal; color:#891a25; margin:0 0 10px 0; line-height:1.1}
+td.contentbg .lp-hero .storelocator input[type="text"] {width:185px; border:1px solid #c7c7c7; height:25px; line-height:25px; font-family: SofiaProRegular, Verdana, Geneva, Helvetica, sans-serif; color:#666; padding:0 25px 0 5px}
+td.contentbg .lp-hero .storelocator .search {width:25px; height:24px; background:url(/text/misc-pages/misc-images/searchicon.gif) no-repeat; border:none; cursor:pointer; position:absolute; right:4px; top:3px}
+td.contentbg .lp-hero .storelocator .findstore {width:147px; height:36px; background:url(/text/misc-pages/misc-images/findstore.gif) no-repeat; border:none; cursor:pointer; float:right; margin:11px}
+td.contentbg .lp-hero .storelocator div {position:relative; width:220px; margin:5px 0}
+td.contentbg .featured-categories {background:#FFF; margin:30px 0; padding:20px}
+td.contentbg .featured-categories h2 {color:#1b9990; border-bottom:1px solid #CCC; font-family:Memimas-Medium, serif; margin-bottom:20px; font-weight:normal; font-size:170%}
+td.contentbg .featured-categories a {color:#313131; text-decoration:none}
+td.contentbg .featured-categories img {display:block; margin-bottom:5px}
+td.contentbg .featured-categories li {padding:2px 2px 15px 0; text-align:center; display:inline-block}
+
+/*Back Story Pages 4 versions*/
+.back-story {background:#FFF; padding:0 20px 25px 25px; color:#818181; line-height:1.5; min-height:190px}
+.back-story h2 {font:260%/1.3 Memimas-Medium, serif; color:#25a7c2; font-weight:normal; margin-bottom:13px}
+.back-story h3 {font:130%/1.4 SofiaProRegular, Verdana, Geneva, Helvetica, sans-serif; font-weight: normal; color:#666; margin:20px 0 5px 0; position:relative; clear:both}
+.back-story h3.story3 {margin-top:0}
+.back-story p {margin-bottom:10px; padding-right:5px}
+.back-story .left-image {margin:0 20px 25px 0; float:left;}
+.back-story .description {padding-right:20px}
+
+.back-story ul li {margin:0; list-style:none; background:url(img/back-story/list-dot.gif) no-repeat left 8px; padding-left:10px}
+.right-column {width:425px; display:inline-block; vertical-align:top; min-height:140px; margin-right:-20px}
+.left-column {margin-right:27px; width:445px; display:inline-block; vertical-align:top; min-height:140px}
+
+
+/*HelpDesk*/
+.helpdesk {background:#FFF; padding:20px; font-size:100%; color:#666; line-height:1.6; font-size:75%; margin-left:10px}
+.helpdesk h2 {font-family: SofiaProRegular, Verdana, Geneva, Helvetica, sans-serif; font-size:170%; color:#891a25; border-bottom:1px solid #e2dadb; padding-bottom:5px; margin-bottom:17px; font-weight:normal; text-transform:uppercase}
+.helpdesk h3 {margin-bottom:15px; font-size:110%; color:#28887d; padding-top:10px}
+.helpdesk p {margin-bottom:10px}
+.helpdesk a {color:#666;}
+.helpdesk ul {margin-bottom:15px; margin-left:30px}
+.helpdesk ul li {list-style:none; list-style-image:url(/text/helpdesk/img/list-dot.gif); margin-left:12px}
+.helpdesk table {border-spacing:0; border-collapse:collapse; margin-bottom:20px}
+.helpdesk table td, th {text-align:left; padding:3px 5px; border:1px solid #cccccc}
+.helpdesk table th {background:#edeae6; padding:5px}
+.helpdesk table tr:nth-child(odd) {background:#fafafa}
+.helpdesk table caption {text-align:left; margin:5px}
+.helpdesk .returnsteps {padding-bottom:20px}
+.helpdesk .returnaddress {padding:10px; border:1px solid #CCC; background:#fafafa; width:200px; margin:10px 0}
+.helpdesk ol {margin-bottom:15px; margin-left:30px}
+.helpdesk ol li {list-style:decimal}
+.helpdesk ol li ul li {list-style:none; list-style-image:url(/text/helpdesk/img/list-dot.gif); margin-left:12px}
+
+
+/*Hero and Article basic css*/
+.hero-header h1 { top: -15px; }
+.hero {background:#FFF; margin:0; color:#666; font-size:80%; position:relative; width:960px; position:relative; z-index:1}
+.wrap {width:960px}
+td.contentbg .headline {background:url(/images/content-slots/articles/h1_bg.png) no-repeat; height:83px; font-size:70%; margin-top:10px; background-position:center bottom;}
+td.contentbg .headline .breadcrumb {padding:10px 0 15px 0;}
+td.contentbg .headline h1 {font:290%/1.3 Memimas-Medium, serif; color:#1b9990; font-weight:normal}
+td.contentbg .headline table {border:0; height:63px; width:100%}
+td.contentbg .headline table td {padding:0 15px}
+.social {position:absolute; right:17px; top:-13px; z-index:2}
+.social ul {margin-left:5px}
+.hero-header {margin-bottom:-80px; position:relative; margin-top:36px; line-height:1.1; z-index:2}
+.hero-header h2 {padding-bottom:10px; border-bottom:1px solid #ead7d8; font-size:130%; font-family:SofiaProLight, Verdana, Geneva, Helvetica, sans-serif; font-weight: normal; text-transform:uppercase; color:#891a25; margin:10px 17px 15px 17px; position:relative; z-index:2}
+.hero .container, .hero .containerfirst {position:relative}
+.hero a {color:#666}
+.orange-link {font-family:SofiaProBold, Verdana, Geneva, Helvetica, sans-serif; position:relative; z-index:2; color:#ff9900 !important; text-decoration:none; font-size:85%; text-transform:uppercase; line-height:1.4}
+.orange-link span {font-family:SofiaProBold, Verdana, Geneva, Helvetica, sans-serif; font-size:140%; padding-left:4px}
+.shop-this-collection {position:relative; z-index:2; text-align:center; padding-bottom:15px}
+.short-article {padding:66px 17px 17px 17px; z-index:2; line-height:1.5; margin-bottom:20px}
+.brown-link {font-family:SofiaProRegular, Verdana, Geneva, Helvetica, sans-serif; position:relative; z-index:2; color:#796243; text-decoration:none; font-size:90%; text-transform:uppercase; line-height:1.4}
+.brown-link span {font-size:140%; padding-left:4px}
+td.contentbg .content {background:#FFF; padding:15px 0 30px 0; font-size:75%; color:#999;}
+td.contentbg .title {color:#1b9990; border-bottom:1px solid #CCC; font-family:'thirsty_script_lightregular', SofiaProRegular, Verdana, Geneva; font-size:24px; margin-bottom:20px}
+td.contentbg .discover-stories {float:right; width:335px; padding-right:17px;}
+td.contentbg .story {margin:0 0 45px 0; line-height:1.5; color:#666; position:relative}
+td.contentbg .story h2 {color:#999; font-weight:normal; text-transform:uppercase; font-size:110%; margin:0 0 0 5px}
+td.contentbg .story p {margin:0px 0 15px 0; padding:0 10px 0 5px}
+td.contentbg .story a {color:#999; padding-left:5px}
+td.contentbg .story ul {margin-bottom:15px; padding-left:5px}
+td.contentbg .story ul li {list-style:none}
+td.contentbg .story img {margin-bottom:15px}
+td.contentbg .featuder-products {padding-left:20px; padding-right:10px;}
+td.contentbg .narrowCol {}
+td.contentbg .featuder-products .products {margin-bottom:30px}
+td.contentbg .featuder-products .getThumb {width:175px; text-align:center; font-size:130%; position:relative; margin-bottom:25px; float:none; margin-right:7px; background:url(/images/misc/smallloader.gif) no-repeat center 80px; display:inline-block; vertical-align:top;}
+td.contentbg .featuder-products .getThumb img {margin-bottom:10px}
+td.contentbg .featuder-products .thumbheader {padding:0 5px; line-height:1.4}
+td.contentbg .featuder-products .title {margin-right:12px}
+td.contentbg .facebook-comments {clear:both}
+td.contentbg .featuder-products .fp-thumb {width:175px; text-align:center; font-size:130%; position:relative; margin-bottom:25px; float:none; margin-right:7px; background:url(/images/misc/smallloader.gif) no-repeat center 80px; display:inline-block; vertical-align:top;}
+td.contentbg .featuder-products .fp-thumb img {margin-bottom:10px}
+
+
+
+/*Inspiration Pages All HERO sections*/
+
+.hero-left {display:inline-block; width:433px; padding-right:15px; max-height:415px; overflow-y:auto; margin-right:15px;}
+.hero-left::-webkit-scrollbar {background:#eaeaea; width:10px;}
+::-webkit-scrollbar-track {background: rgba(234,234,234,1);}
+::-webkit-scrollbar-thumb {-webkit-box-shadow: inset 0 0 12px rgba(121,121,121,1); background: rgba(151,151,151,1);}
+.hero-left .lastparagraph {padding:0; margin:0}
+.hero-image {display:inline-block; width:450px; vertical-align:top; position:relative;}
+.hero-image p.photodescription {text-align:center; margin:14px auto; color:#999999; font-size:90%;}
+.hero-image p.sliderdescription {text-align:center; margin:14px 50px; color:#999999; font-size:90%; position:relative}
+.hero-image .arrows {position:relative}
+.hero-image img {padding:3px; background:#FFF; border:1px solid #e5e5e5}
+.hero p {margin:0 0 22px 0; padding:0}
+.hero h2 {font:130%/1.4 SofiaProLight, Verdana, Geneva, Helvetica, sans-serif; font-weight: normal; text-transform:uppercase; color:#891a25; margin:10px 0 15px 0; position:relative; z-index:2}
+.hero h2.smallh2 {color:#666; font-weight:normal; margin:5px 0 15px 0; text-transform:none; font-size:110%}
+.hero ul {margin:0 0 25px 0}
+.hero ul li {list-style-type:none; margin-bottom:2px}
+.hero ul li.lititle {font-size:110%}
+.hero-left-arrow {background:url(/images/content-slots/articles/hero-slider-arrow.png) no-repeat left top; width:31px; height:31px; position:absolute; top:50%; margin-top:-14px; left:0; border-style: none;}
+.hero-right-arrow {background:url(/images/content-slots/articles/hero-slider-arrow.png) no-repeat right top; width:31px; height:31px; position:absolute; top:50%; margin-top:-14px; right:0; border-style: none;}
+.short-article .slider {padding:3px; background:#FFF; border:1px solid #e5e5e5; width:452px; height:409px; position:relative; overflow:hidden}
+.short-article .slider div ul {margin:0; padding:0; width:4000px}
+.short-article .slider div ul li {float:left; z-index:3}
+.short-article .slider div {width:452px; height:409px; overflow:hidden;}
+.short-article .slider + p {padding:0px 50px}
+.short-article .slider .thumbnails {position:absolute; bottom:-8px; width:100%; text-align:center}
+.short-article .slider .thumbnails li {margin:0 3px; display:inline-block}
+.short-article .sliderimages {margin:3px}
+.short-article .sliderimages img {border:0; padding:0}
+.short-article .thumbnails li a {background:url(/text/inc/hpcarousel/button_sm4.png) no-repeat center -52px; display:block; width:14px; height:14px}
+.short-article .thumbnails li a.active {background:url(/text/inc/hpcarousel/button_sm4.png) no-repeat center -4px;}
+.short-article .thumbnails li a:hover {background:url/text/inc/hpcarousel/button_sm4.png) no-repeat center -28px;}
+.short-article .thumbnails li a.active:hover {background:url(/text/inc/hpcarousel/button_sm4.png) no-repeat center -4px;}
+
+
+
+
+/*Inspiration blocks*/
+#inspiration {font-family:SofiaProRegular, Verdana, Geneva, Helvetica, sans-serif; margin:15px -15px 15px 0;visibility:hidden}
+.block {background:#FFF; width:228px; margin:0 15px 20px 0; color:#878787; float:left}
+.block a {text-decoration:none;}
+.block.navigation {padding:7px; width:214px; margin-bottom:10px}
+.block.navigation ul {background:#1b9990; padding:7px 7px;}
+.block.navigation ul li {list-style:none; color:#FFF; border-bottom:1px solid #82c1ba; display:block; padding:5px 0 6px 0; margin:0}
+.block.navigation ul li a {color:#FFF; text-decoration:none;}
+.block.navigation ul li.last {border:none;}
+.block img {padding:7px;}
+.block div {padding:7px 12px 12px 12px;}
+.block h2 {font-size:100%; text-transform:uppercase; margin:0 0 7px 0; font-family:SofiaProLight, Verdana, Geneva, Helvetica, sans-serif; line-height:1.3}
+.block p {margin-bottom:7px; font-size:70%}
+.block a {color:#878787; font-size:75%}
+.block.hover {-webkit-box-shadow: #666 8px 8px 20px;-moz-box-shadow: #666 8px 8px 20px;box-shadow: #666 8px 8px 20px; -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=9, Direction=135, Color='#000000')";}
+
+/**** Isotope Filtering ****/
+
+.isotope-item {
+  z-index: 2;
+}
+.isotope-item p {padding-top:7px}
+.isotope-hidden.isotope-item {
+  pointer-events: none;
+  z-index: 1;
+}
+
+/**** Isotope CSS3 transitions ****/
+
+.isotope,
+.isotope .isotope-item {
+  -webkit-transition-duration: 0.8s;
+     -moz-transition-duration: 0.8s;
+      -ms-transition-duration: 0.8s;
+       -o-transition-duration: 0.8s;
+          transition-duration: 0.8s;
+}
+
+.isotope {
+  -webkit-transition-property: height, width;
+     -moz-transition-property: height, width;
+      -ms-transition-property: height, width;
+       -o-transition-property: height, width;
+          transition-property: height, width;
+}
+
+.isotope .isotope-item {
+  -webkit-transition-property: -webkit-transform, opacity;
+     -moz-transition-property:    -moz-transform, opacity;
+      -ms-transition-property:     -ms-transform, opacity;
+       -o-transition-property:         top, left, opacity;
+          transition-property:         transform, opacity;
+}
+
+/**** disabling Isotope CSS3 transitions ****/
+
+.isotope.no-transition,
+.isotope.no-transition .isotope-item,
+.isotope .isotope-item.no-transition {
+  -webkit-transition-duration: 0s;
+     -moz-transition-duration: 0s;
+      -ms-transition-duration: 0s;
+       -o-transition-duration: 0s;
+          transition-duration: 0s;
+}
+
+/* End: Recommended Isotope styles */
+
+.lp-number1 {background:url(/images/content-slots/articles/bedroom-essentials/numbers.gif) no-repeat center top; width:48px; height:65px; float:right; margin-top:18px}
+.lp-number2 {background:url(/images/content-slots/articles/bedroom-essentials/numbers.gif) no-repeat center -65px; width:48px; height:65px; float:left; margin-top:18px}
+.lp-number3 {background:url(/images/content-slots/articles/bedroom-essentials/numbers.gif) no-repeat center -130px; width:48px; height:65px; float:right; margin-top:18px}
+.lp-number4 {background:url(/images/content-slots/articles/bedroom-essentials/numbers.gif) no-repeat center -195px; width:48px; height:65px; float:left; margin-top:18px}
+.lp-number5 {background:url(/images/content-slots/articles/bedroom-essentials/numbers.gif) no-repeat center -266px; width:48px; height:65px; float:right; margin-top:18px}
+.lp-number6 {background:url(/images/content-slots/articles/bedroom-essentials/numbers.gif) no-repeat center -333px; width:48px; height:65px; float:left; margin-top:18px}
+.lp-number7 {background:url(/images/content-slots/articles/bedroom-essentials/numbers.gif) no-repeat center -398px; width:48px; height:65px; float:right; margin-top:18px}
+.lp-number8 {background:url(/images/content-slots/articles/bedroom-essentials/numbers.gif) no-repeat center -467px; width:48px; height:65px; float:left; margin-top:18px}
+
+/*Ecat*/
+.ecat {position:relative; background:#f6f6f6; border-bottom:1px solid #eeeeee; border-top:1px solid #eeeeee; margin:-16px -17px -17px -17px; z-index:2;}
+.ecat ul {min-height:660px;}
+.ecat ul li {position:absolute; top:0; left:0; text-align:center; width:900px; display:none; list-style:none}
+.ecat ul li img {}
+.ecat .left-ecat {position:absolute; background:url(/text/ecat/wk28ecat/arrows.png) left top; width:55px; height:55px; top:50%; margin-top:-30px; left:-30px;}
+.ecat .right-ecat {position:absolute; background:url(/text/ecat/wk28ecat/arrows.png) right top; width:55px; height:55px; top:50%; margin-top:-30px; right:-30px;}
+.ecat .seecollectionecat {position:absolute; right:25px; bottom:-51px; color:#891a25; text-decoration:none; text-transform:uppercase}
+.ecat .disclaimer {font-size:90%; padding:5px 0}
+.ecat .disclaimer span {padding-left:15px;}
+
+/* 404 Page*/
+.page404 {background:#FFF url(img/bg-404.jpg) no-repeat right 50px; padding:30px 50px 50px 50px; color:#666; font-size:75%}
+.page404 a {color:#666; text-decoration:none}
+.page404 a:hover {text-decoration:underline}
+.page404 h2 {font-family: SofiaProRegular, Verdana, Geneva, Helvetica, sans-serif; font-size:220%; color:#891a25; margin-bottom:25px; font-weight:normal;}
+.page404 h2 span {color:#999; font-size:45%}
+.page404 h3 {font-size:100%; margin-bottom:5px}
+.page404 ul {display:inline-block; vertical-align:top; line-height:1.7; margin-right:70px}
+.page404 ul li {list-style:none}
+.page404 ul li.last {padding-top:7px}
+
+/*Pin Button*/
+.pinterest-button {z-index:100; margin:0; padding:0; position:absolute}
+
+/*Coupon Page*/
+.lp-hero .barcode {text-align:center; float:right; width:350px; margin-right:20px; padding-top:60px; position:relative}
+.lp-hero .barcode p {font-size:75%}
+.lp-hero .barcode .printcoupon {margin-top:40px; margin-bottom:10px; border:0}
+.lp-hero .barcode .printcoupon img {display:block}
+.lp-hero .printcounter {font-size:70%; color:#666; text-align:center; padding-top:4px; display:block}
+.lp-hero .coupon {padding:0 35px; font-size:75%; color:#666; line-height:1.6; float:left; width:470px; text-align:left}
+.lp-hero .coupon p {margin-bottom:10px;}
+.lp-hero .coupon p.disclaimer {font-size:90%; line-height:1.3}
+.lp-hero .coupon a {color:#666}
+.lp-hero .logoprint {display:none;}
+.lp-hero .overprint {position:absolute; left:0; top:0; width:100%; height:99%; background:#FFF; border:1px solid #CCC; display:none}
+.lp-hero .overprint p {padding:80px 20px 0 20px; font-size:80%; color:#1B9990}
+#couponforprint {width:90%; margin:20px auto; padding:30px; background:#FFFFFF; font-size:9pt; border:3px dotted #999; display:block}
+#couponforprint .barcode {text-align:center; width:100%; border:1px solid #CCC; padding:20px 0 5px 0}
+#couponforprint .barcode p {text-align:center;}
+#couponforprint .printcoupon {display:none}
+#couponforprint img {text-align:center}
+#couponforprint h2 {font-size:18pt; padding:5px 0 15px 0; text-align:center; width:100%}
+#couponforprint .logoprint {text-align:center; padding:30px 0 15px 0}
+#couponforprint .overprint {display:none}
+#couponforprint p {margin:12px 0; text-align:left}
+.lp-hero .printcounter {display:none}
+.noprint {display:none}
+
+.hero a.seecollectionecat {position:absolute; right:25px; bottom:-50px; color:#891A25; text-decoration:none; text-transform:uppercase; background:url(/text/homepage/img/seecollection-arrow.png) no-repeat right; padding-right:10px}
+
+/* override - itemFreeShip - normal, teal */
+/* ML uses same class for surcharge message
+.thumbInfo .pdpShippingMsgs, .pdpProductInfoSection .pdpShippingMsgs, .pdpProductInfoSection .pdpShippingMsgs a {color: #1B9990 !important; font-weight: bold;} */
+.thumbInfo .pdpShippingMsgs{color: #1B9990 !important; font-weight: bold;}
+
+
+/* OVERRIDE - sven - cat nav */
+.navLeft1On{font-family: Congress-Med, Vernana, sans-serif} 
+
+/* override sven guest checkout btn */
+.accButtonClass.guestCheckout { width: 228px !important; height: 34px !important; }
+
+/* override QVE background */
+.ui-widget-overlay { background-color: #000 !important; }
+
+.contentSocLnks li {margin-left:10px}
+
+/* override Dir left nav heading */
+.navLeft1On a {
+	font-family: "Congress-Reg", serif;
+}
+
+/* overide product loading css*/
+div#infscr-loading {
+	display: table-cell;
+	vertical-align: center;
+	width: 100%;
+
+	padding: 20px;
+	text-align: center;
+	background: url(/images/misc/white60.png)
+}
+
+/* overrides for dropdown menu - unfloat, and instead inline-block*/
+#sf-menu-text-nav ul.sf-menu { float: none; height: 30px; padding-top: 16px;}
+.sf-menu>li { float: none; height: 32px; display: inline-block;zoom: 1;*display: inline;}
+.sf-menu>li.sfHover {background-position: center 14px;}
+.sf-menu li.first div a.sf-top-level-link { margin-left: 0px;}
+ul.sf-menu>li>div { display: inline; }
+ul.sf-menu li div a.sf-top-level-link { padding: 0; margin-left: 0px;display: inline; }
+
+/* #tnc_9 a span, #tnc_7 a span {color: #B4292F;} */
+
+#giftcardfloat {top: 50%; display:none; margin-left: -10px; margin-top:-44px}
+#scrollToTop {background:url(/images/misc/scroll_to_top.png) no-repeat -10px bottom; height:60px; width:135px; bottom:0px; cursor:pointer; display:none; margin-right: 0px}
+
+.subscribePopupForm {font-size:80%; background:#FFF; border:1px solid #666; position:absolute; width:564px; top:50%; margin-top:-300px; left:50%; margin-left:-282px; padding-top:30px; padding-bottom:30px}
+
+.subscribePopupForm p {color:#666; font-size:21px; text-align:center; margin-bottom:30px; font-family:SofiaProRegular, Verdana, Geneva, Helvetica, sans-serif}
+.subscribePopupForm .close {display:block; background:url(/images/misc/emailPopupClose.gif) no-repeat left top; width:58px; height:20px; position:absolute; right:10px; top:7px; cursor:pointer}
+.subscribePopupForm h2 {font-family:SofiaProRegular, Verdana, Geneva, Helvetica, sans-serif; font-size:22px; font-weight:normal; margin:20px; color:#666; text-transform:uppercase;}
+#subscribe-s {text-align:left; width:400px; margin:auto}
+#subscribe-s label {display:inline-block; vertical-align:top; width:100px; text-align:right; color:#333; text-transform:uppercase; margin:8px 10px 0 0}
+#subscribe-s input[type="text"] {display:inline-block; vertical-align:top; border:1px solid #c7c7c7; height:25px; line-height:25px; border-radius:1px; width:250px; margin-bottom:10px; padding:0 5px}
+#subscribe-s input[name="zipcode-s"] {width:80px}
+#subscribe-s input[type="submit"] {background:url(/images/misc/emailPopupButton.gif) no-repeat left top; width:147px; height:36px; border:none; text-indent:-1000px; margin:10px 0 30px 115px}
+.subscribePopup {position:fixed; background:url(/images/misc/black70.png) repeat; width:100%; height:100%; z-index:5000; top:0; left:0; display:none}
+#multiColumnFooter .emailSignField2 {float:left}
+.emailsubmitPopup {cursor:pointer}
+.subscribePopupForm span {color:#b4292f; margin-left:115px; display:block; margin-bottom:7px}
+.subscribePopupForm .success-result {display:none}
+.subscribePopupForm .success-result a img {margin-bottom:30px}
+
+/* styles for topnav menus */
+#flatCatMenu_102821 {width:956px;}
+#customMenu_102821 { padding:30px 30px 15px 30px !important; float:left;}
+
+
+/* fix clipped images in flyout nav */
+.subContainer .subImg {top: 0px;}
+
+.checkTheSound {color:#000!important}
+.checkTheSound a, .checkTheSound a:link, .checkTheSound a:visited {color:#000!important}
+.checkTheSound a:hover {color:#1b9990!important}
+.checkTheSound a:hover .navLeftSubsOn {color:#1b9990!important}
+.facetedNavLeft li li:hover {color:#1b9990!important}
+
+/* opti test search box */
+#navsearchbox {background:url(/images/worldmarket/en_us/global/globalgraphics/searchInput.png) no-repeat left top; height:32px; width:254px; line-height:32px}
+.globalNavTop .searchSection {width:730px; float:right; margin-top:10px}
+.globalNavTop .navsearchform {margin-left: 53px; width:auto; float:left; height: auto;}
+.globalNavTop .navsearchform form {float: left;} 
+.globalNavTop .promoSection {width:675px; height:19px; float:right; margin:0; position:relative}
+.globalNavTop .promoSection2 {margin:0; width:auto; float:right;  position:relative}
+.searchSection { height: auto;}
+
+/* hack for ML's errant 8px top padding from non-image <a> tags */
+.wmSubCat:hover .ssCatCont div.subImg a {padding: 0px 0 !important;}
+
+/* hack to resize Shopatron search box image since ML used same image as on search in top nav */
+div#shopatronZipCodeContainer img{ height: 24px; }
+
+@font-face {
+    font-family: 'thirsty_script_lightregular';
+    src: url('/text/cpwmwebfonts/webfonts/ThirstyScriptLight-webfont.eot');
+    src: url('/text/cpwmwebfonts/webfonts/ThirstyScriptLight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/text/cpwmwebfonts/webfonts/ThirstyScriptLight-webfont.ttf') format('truetype'),
+         url('/text/cpwmwebfonts/webfonts/ThirstyScriptLight-webfont.svg#thirsty_script_lightregular') format('svg'),
+         url('/text/cpwmwebfonts/webfonts/ThirstyScriptLight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Thirsty script font overrides - commented out right now */
+
+.cgwListHed, .cgwListHed a, .cgwListHed a:visited, .cgwListHed a:after,
+.basketHeader, .accountHeader,
+.cpwmCustomCategoryHeader h1, .cpwmCustomDirectoryHeader h1,
+.directoryCategoryHeader h1,
+.pqve_detailheader, .accCheckOutHeader,
+.searchHeader,.insp, td.contentbg .headline h1, td.contentbg .featuder-products .title {font-family:'thirsty_script_lightregular', SofiaProRegular, Verdana, Geneva; font-weight:normal;}
+
+.cgwListHed, .cgwListHed a, .cgwListHed a:visited, .cgwListHed a:after,
+.pqve_detailheader,
+.cpwmCustomCategoryHeader h1, .cpwmCustomDirectoryHeader h1 
+.basketHeader, .accountHeader, td.contentbg .headline h1,
+.insp, .cpwmCustomDirectoryHeader h1, .basketHeader, td.contentbg .featuder-products .title, .accCheckOutHeader {font-size:24px; font-weight:normal;}
+.cgwListHed a {font-size:20px}
+.cgwList {padding:5px 12px 8px;}
+
+td.contentbg .headline {padding-top:10px;} 
+
+/* simple popup classes */
+
+div.SimplePopup p strong {
+	font-family: SofiaProBold; 
+	font-weight: normal;
+}
+
+div.SimplePopup, div.SimplePopup p {
+	font-family: SofiaProLight; 
+	font-size: 13px; 
+	line-height: 14px; 
+	color: #333333; 
+	font-weight: normal; 
+	margin-bottom: 16px; 
+}
+
+
+div.SimplePopup #toprightclose {
+	position:absolute;
+	top:-10px;
+	right:-10px;
+	background: url(/images/misc/closeButton.png) no-repeat center top;
+	width:30px;
+	height:30px;
+}
+
+div.SimplePopup .calltoaction, div.SimplePopup .closebutton { cursor: pointer; } 
+
+div.SimplePopup #toprightclose:hover {
+	background-position:center -32px;
+}
+div.SimplePopup .simple_popup_header {
+	font-family:SofiaProBold;
+	font-size: 18px;
+	color: #333; 
+	text-transform:uppercase;
+	margin-bottom: 15px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #dfdfdf;
+}
+
+.pdpActions #cartMsg {padding-left: 15px; margin-left: 0} 
+
+/* hack to fix the display of items in global cart */
+ul.utility li .itemImage a {padding: 0;}
+
+/* add spacing - remove after WOMA-2185 is fixed*/
+div.notEligibleForPUIS {
+	padding-top: 8px; 
+}
+/* Remove Headline Header from Inspiration Content Pages*/
+.contentbg .headline {display:none};
+
+
+/* popup styles for multiple source codes */
+div.promo_details_body {padding-bottom: 5px; border-bottom: 1px solid #dfdfdf; margin-bottom: 20px; }
+div.popupDiscountsContainer { padding: 10px; overflow: auto; }
+div.promo_details_header { font-weight: normal; font-family: SofiaProBold; font-size: 14px; color: #333; text-transform: uppercase; margin-bottom: 10px; }
+
+.cpwmCustomDirectoryHeader table td.leftCol { width:auto; }
+
+.cpwmCustomDirectoryHeader table td.leftCol { width: 340px; }
+
+.holidayBg2013 {background:url(/images/misc/holidayBg2013.png) no-repeat center top; position:absolute; left:0; top:45px; width:100%; height:962px; z-index:-1}
+
+/* hide image so Optimizely test can make it visible */
+/* .pdpPromoMsg img, .ui-btn > img {display:none} */
+
+/* hide WME disclaimer per Jason 2013 11 04 */
+.wmeDisclaimer { display:none; }
+
+/*CSS below here is for shortening up the hight of the add to cart area*/
+.qtytitle{float:left;color:#555;}
+.pdpQtyRow {padding-top:9px;}
+.pdpColorRow .qtytitle {margin-bottom:8px;}
+.detailSwatchContainer {width:100% !important;}
+.detailSwatchContainer a {width:auto !important;}
+.detailSwatchContainer a.selected img {width:17px !important;}
+.pdpQtyRow {float:left !important; margin-right:20px !important;} 
+
+.pdpActions {float:left !important;}
+.pdpSurchargeMsgs {clear:both !important; margin-top:11px !important; float:none !important;}
+.checkStoreAvailability {clear:both !important;}
+.tableitemQty {clear:both !important; margin-left:0px !important; margin-right:0px !important; margin-top:0px !important;}
+.tableitemQty input[type="text"] {margin-top:-6px !important; margin-left:0px !important;}
+/*End shortening of add to cart area*/
+
+/* SEO text (bottom of page) */
+
+.footerTextBlock a {color: #000000; text-decoration: none;}
+.footerTextBlock {text-align: justify;}
+
+/*Hide tag <cite> from product description*/
+.pqve_default #notificationMessage {display:none}
+
+/*Promo codes popup message for customers on top of the page*/
+.promoCodesWM {background:#1b9990; color:#FFF; padding:10px 0; position:fixed; top:-50px; left:0; width:100%; z-index:9999; font-size:12px; opacity:.9}
+.promoCodesWMClose {cursor:pointer; font-size:28px; position:absolute; right:20px; top:0;}
+
+/* shipping delay msg injected into checkout */
+div.shipDelayMsg { padding:  20px; color:  darkred; font-size:  120%; font-family:  SofiaProRegular; margin:  10px; border:  1px solid darkred; } 
+
+/* Notify Me Popup */
+#notifyMeForm {position:relative; color:#a81f1c; font-family: SofiaProRegular, Verdana, Geneva, Helvetica, sans-serif;}
+.notifyMe {background:url(/text/siteincludes/comingSoon/notifyMeWhenProductArrives.png) no-repeat; width:355px; height:36px; cursor:pointer; margin-top:12px}
+.notifyMe.success {background:url(/text/siteincludes/comingSoon/notifyMeWhenProductArrivesOk2.png) no-repeat; width:355px; height:36px; cursor:default}
+#notifyForm {background:#fafafa; border:1px solid #dadada; padding:20px 0 20px 0; display:none; position:relative; width:400px; z-index:1000; font-family:Verdana, Geneva, Helvetica, sans-serif \0/ !important;}
+#notifyForm label {display:inline-block; vertical-align:middle; width:145px; text-align:right; color:#28887b; font-size:11px; text-transform:uppercase; font-family:SofiaProReg, Verdana, Geneva, Helvetica, sans-serif;}
+#notifyForm label.error {color:#8f0000; font-size:11px}
+#notifyForm input[type="text"], #notifyForm input[type="email"], #notifyForm input[type="phone"] {width:230px; font-family:SofiaProReg, Verdana, Geneva, Helvetica, sans-serif; background:#FFF; border:1px solid #CCC; padding:10px 5px; display:inline-block; vertical-align:middle; margin-right:5px; color:#333}
+#notifyForm input[type="submit"] {background:url(/text/siteincludes/comingSoon/submitButton.png) no-repeat; width:148px; height:36px; border:none; text-indent:-9999px; cursor:pointer}
+#notifyForm div {text-align:right; margin:10px 15px 0 0}
+#notifyForm msg {display:none; position:absolute; color:#333; font-size:12px; padding:10px 0} 
+#notifyForm p {color:#333; font-size:13px; padding:0 10px 20px 16px; text-align:left}
+.closeNotifyMe {background: url(/images/misc/closeButton.png) no-repeat center top; width:30px; height:30px; position:absolute; right:-38px; top:-24px; text-indent:-9999px; displa:block}
+.closeNotifyMe:hover {background-position:center -32px; cursor:pointer}
+
+/* Request swatches form popup */
+#notifyForm.requestSwatchesForm input[type="text"], #notifyForm.requestSwatchesForm input[type="email"], #notifyForm.requestSwatchesForm input[type="phone"] {padding:5px;}
+#notifyForm.requestSwatchesForm label {width:131px; text-transform:none}
+#notifyForm.requestSwatchesForm label span {color:#cc3333; font-size:14px; line-height:.4}
+#notifyForm.requestSwatchesForm label.starMiss {width:125px; margin-right:6px}
+#notifyForm.requestSwatchesForm p span {color:#cc3333; font-size:11px; line-height:2}
+#notifyForm.requestSwatchesForm p {padding-bottom:10px}
+#notifyForm.requestSwatchesForm .closeRequestSwatchesForm {float:left; margin: -25px 0 0 20px;}
+#notifyForm.requestSwatchesForm .swatchesPalette {display:inline-block; vertical-align:middle; margin:4px 0 5px 0;}
+#notifyForm.requestSwatchesForm .detailSwatchContainer {background:none; text-align:left; margin:0}
+#notifyForm div.swatchesPalette, #notifyForm div.detailSwatchContainer {text-align:left; margin:0}
+#notifyForm.requestSwatchesForm .swatchesPalette a {width:21px; height:21px; overflow:hidden; float:left; border:2px solid #FFF}
+#notifyForm.requestSwatchesForm .swatchesPalette a.active {border:2px solid #1b9990; cursor:pointer}
+#notifyForm.requestSwatchesForm #msg {display:none; font-size:16px; margin-bottom: 40px; text-align: left; padding: 0 20px; font-size: 16px; line-height: 120%;} 
+.notifyMe.requestSwatchesNotifyMe {background:url(/text/siteincludes/requestSwatches/requestSwatchButton.png) no-repeat; width:220px; height:36px; cursor:pointer; margin-top:12px}
+.notifyMe.requestSwatchesNotifyMe.success {background:url(/text/siteincludes/requestSwatches/requestSwatchButtonsSuccess.png) no-repeat; width:304px; height:36px; cursor:default}
+
+/* Easter updates for Main Nav and Basket 02/27/2014 */
+.emptyEasterBasket, .fullEasterBasket {background:url(/images/misc/easterBaskets2014.png) no-repeat left top; padding:10px 5px 0 1px; margin:-5px; width:30px; height:16px; display:block}
+.fullEasterBasket {background-position:left -32px}
+.emptyEasterBasket img, .fullEasterBasket img {display:none}
+#t_easter {position:relative; margin:0 2px}
+#t_easter a {color:#be3996; padding:0 15px}
+.easterNav {background:url(/images/misc/easterNav2014.png) no-repeat center bottom; position:absolute; left:0; bottom:2px; width:74px; height:39px; z-index:-1}
+
+/* Wk2- 'Click to Expand' Facebook on PDPs */
+div.fb_rtb { cursor: pointer; background: #edeff4; color: #526ea6; padding: 8px 20px; font-family: SofiaProRegular; font-size: 13px; text-transform: uppercase; margin-bottom: 10px; }
+div.fb_rtb b {float: right; font-size: 30px; line-height: 8px; color: #526ea6; font-weight: normal;} 
+
+#notificationMessage, #swatchRequest { display:none; }
+#cs-returns{display:none;}
+
+body.main { overflow-x: hidden !important; } /* so absolutely positioned stuff doesn't cause a horizontal scroll bar */
+body.main {background:url("/images/worldmarket/en_us/global/globalgraphics/background15.jpg") repeat}
+.wrapper {background: url("/images/worldmarket/en_us/global/globalgraphics/tear_top15a.jpg") repeat-x center 22px !important}
+
+div.ACcont {margin-left: 110px;} /* properly align search auto-complete dropdown */
+.styleBoardProduct{width:191px;float:left;margin-right:20px;margin-bottom:60px;}
+.styleBoardProduct a {text-decoration:none;}
+.pqve_container_infotab .pqve_addtobasket {padding-top:9px;}
+
+.PDPvideo {position:relative}
+.PDPvideo:before {content:""; background:url(/images/misc/playButton2.png) no-repeat center center; display:block; position:absolute; left:0; top:0; right:0; bottom:0; margin:auto}
+a.PDPvideo {display:none}
+
+// social buttons in promo3
+#homeSocial {margin-bottom:20px; text-align:center; position:relative}
+#homeSocial a {background:url(/text/homepage/img/socialHome.png) no-repeat; width:46px; height:46px; display:inline-block; vertical-align:top}
+#homeSocial a[title="Facebook"] {background-position:3px center}
+#homeSocial a[title="Twitter"] {background-position:-48px center}
+#homeSocial a[title="Pinterest"] {background-position:-98px center}
+#homeSocial a[title="YouTube"] {background-position:-148px center}
+#homeSocial a[title="Plus"] {background-position:-200px center}
+#homeSocial:before {content:""; position:absolute; left:0; top:22px; border-top:1px solid #666; width:340px}
+#homeSocial:after {content:""; position:absolute; right:0; top:22px; border-top:1px solid #666; width:340px}
+
+.topLinks .promoSection {width:290px !important;margin-bottom:0 !important;}

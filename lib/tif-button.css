@@ -4,17 +4,22 @@
 	background-image: url("trackif.PNG");
 	width: 30px;
 	height: 30px;
+	margin: 5px;
 	
 	
 }
 
 .tif-chart-wrapper {
 	z-index: 10000;
-	overflow: visible;
+	overflow: hidden;
 	position: absolute;
-	background-color: pink;
+	background-color: white;
+	border-color: RGB(201,234,223);
+	border-style: ridge;
+	border-width: 5px;
 
 }
+
 /*
 div#panel {
 	border-style: solid;
@@ -23,6 +28,11 @@ div#panel {
 .display-Image {
 	z-index: 10000;
 }
-body {
-	bakground-color: red;
+
+.arrow {
+	background-image: url('shyguy.png');
+	width: 20px;
+	height: 20px;
+	background-repeat: no-repeat;
+	background-position: center;
 }

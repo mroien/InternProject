@@ -1,0 +1,70 @@
+/* ============================================================ */
+/* Print CSS                                                    */
+/* Last Edited: April 28, 2014                                  */
+/* ============================================================ */
+
+/* BODY */
+html,body {overflow:visible;}
+#container {position:static; clear:both; overflow:visible; float:none; zoom:1}.certona1main {display: none}
+
+/* HEADER */
+#thdHeader #thdCart {display:none}
+#thdHeader #row4 {display:none}
+#thdHeader .bottomHeaderNav {display:none}
+#breadcrumb {display:none}
+#localizeBanner, #nonlocalizeBanner{display:none!important;}
+
+/* PIP CONTENT */
+#productinfo_ctn .brandName, #productinfo_ctn .product_details  {color:#000000 !important}
+.widgetEmailPrintTable {display:none !important}
+#productinfo_ctn .grid {border-width: 0 0px}
+.product_title, #hd-pip .product_modelnumbers, #hd-pip .shippingmsg_ctn {color:#000000}
+.shippingMsg_1 span {padding: 10px 0px 0px 0px}
+#salient_points ul {border-top:1px solid #000000;border-bottom:1px solid #000000;color:#000000;list-style:disc;line-height:16px;}
+#productinfo_ctn .title,#productinfo_ctn .product_modelnumbers,#productinfo_ctn .product_title,#productinfo_ctn .pricingStrikeThru,#productinfo_ctn .shippingMsg_1,#productinfo_ctn .pip_selectStores {color:#000000}
+#product_description, #specifications, #shipping_options {color:#000000}
+#PIPHorizontal1_rr {display:none}
+.btn-icon i {display:none}
+.storeMsg_ctn .pip_checkStoreInv {padding:0px 0px 0px 0px}
+#pipSlider {display:none}
+#productTabsMenu {display:none}
+.sidePanel .grp_shoppersAlsoViewed {display:none}
+.sidePanel #buyBox {display:none}
+#buybox_ctn {display:none !important}
+.product_skuoptions {display:none !important}
+#irg_wrapper {display:none !important;}
+#productTabsMenu {display:none}
+#customer_reviews {display:none}
+.pricingStrikeThru {color:#666666}
+.excludedShipStates {color:#000000}
+.aisleBayDisplay p, a.storeName {color:#000000}
+.product_Sold {color:#000000}
+.main_description {width:945px}
+#specifications table {width:945px}
+#specifications table td {border-bottom:1px solid #A7A7A7}
+#shipping_options {width:945px}
+#moreinfo_wrapper {display:none !important}
+.lower_pod_cta {display:none}
+.product_containerprice {color: #000000 !important}
+.product_containerprice [class^="dwarf-"], .product_containerprice [class*="dwarf-"], .product_containerprice [class|="dwarf-"] {display: none}
+.RV_container_rr{display: none}
+.withBorder {border-bottom: none}
+.LPMimage {display: none}
+.certona1main {display: none}
+
+
+.zoomIt_zoomed,
+.topHeaderNav,
+.chatNowButton,
+#citi_offer,
+#irgContainer,
+#menuScroll,
+#customerImagesLink,
+#thdFeedbackPip{display:none !important;}
+
+#hdpp_info_wrapper{float:left !important;margin-top:20px !important;}
+.primaryImage{background:#ffffff !important}
+.main_description:after{clear:both !important;}
+
+/* FOOTER */
+.footer {display:none}
