@@ -5,8 +5,8 @@
 	width: 30px;
 	height: 30px;
 	margin: 5px;
-	
-	
+	background-position: center;
+	z-index: 10000;
 }
 
 .tif-chart-wrapper {
@@ -30,9 +30,46 @@ div#panel {
 }
 
 .arrow {
-	background-image: url('shyguy.png');
+	background-image: url('arrow.png');
 	width: 20px;
 	height: 20px;
 	background-repeat: no-repeat;
 	background-position: center;
+}
+
+.chartTitle {
+	font-family: "Archer SSm A","Archer SSm B","Georgia", serif;
+	text-align: center;
+	font-size: 15px;	
+	position: relative;
+	background-color: white;
+	border: 4px solid white;
+}
+
+
+.chartTitle:after, .chartTitle:before {
+	bottom: 100%;
+	left: 8%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+
+}
+
+.chartTitle:after {
+	border-color: white;
+	border-bottom-color: RGB(201,234,223);
+	border-width: 5px;
+	margin-left: -5px;
+}
+.chartTitle:before {
+	border-color: white;
+	border-bottom-color: white;
+	opacity: 0.1;
+	border-width: 36px;
+	margin-left: -36px;
+	margin: 2px;
 }
