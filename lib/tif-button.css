@@ -11,7 +11,7 @@
 	border-color: RGB(201,234,223);
 }
 
-.tif-chart-wrapper {
+#tif-chart-container .tif-chart-wrapper {
 	z-index: 10000;
 	overflow: hidden;
 	position: absolute;
@@ -21,15 +21,7 @@
 	border-width: 5px;
 	
 }
-
-div#panel {
-	border-style: solid;
-}
-
-.display-Image {
-	z-index: 10000;
-}
-
+/*
 .arrow {
 	background-image: url('arrow.png');
 	width: 20px;
@@ -37,7 +29,7 @@ div#panel {
 	background-repeat: no-repeat;
 	background-position: center;
 }
-
+*/
 .chartTitle {
 	font-family: "Archer SSm A","Archer SSm B","Georgia", serif;
 	width: 300px;
