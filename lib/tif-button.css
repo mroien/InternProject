@@ -19,7 +19,7 @@
 	border-color: RGB(201,234,223);
 	border-style: ridge;
 	border-width: 5px;
-	
+	margin: 5px;
 }
 /*
 .arrow {
@@ -66,4 +66,7 @@
 	border-width: 36px;
 	margin-left: -36px;
 	margin: 2px;
+}
+#tif-chart-container #canvas {
+	margin: 15px;
 }
