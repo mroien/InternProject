@@ -5,11 +5,13 @@
 	width: 30px;
 	height: 30px;
 	margin: 5px;
-	
-	
+	background-position: center;
+	z-index: 10000;
+	border-style: outset;
+	border-color: RGB(201,234,223);
 }
 
-.tif-chart-wrapper {
+#tif-chart-container .tif-chart-wrapper {
 	z-index: 10000;
 	overflow: hidden;
 	position: absolute;
@@ -17,22 +19,54 @@
 	border-color: RGB(201,234,223);
 	border-style: ridge;
 	border-width: 5px;
-
+	margin: 5px;
 }
-
 /*
-div#panel {
-	border-style: solid;
-}
-*/
-.display-Image {
-	z-index: 10000;
-}
-
 .arrow {
-	background-image: url('shyguy.png');
+	background-image: url('arrow.png');
 	width: 20px;
 	height: 20px;
 	background-repeat: no-repeat;
 	background-position: center;
+}
+*/
+.chartTitle {
+	font-family: "Archer SSm A","Archer SSm B","Georgia", serif;
+	width: 300px;
+	font-size: 15px;	
+	position: relative;
+	background-color: white;
+	border: 4px solid white;
+	text-align: center;
+}
+
+
+.chartTitle:after, .chartTitle:before {
+	bottom: 100%;
+	left: 8%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+
+}
+
+.chartTitle:after {
+	border-color: white;
+	border-bottom-color: RGB(201,234,223);
+	border-width: 5px;
+	margin-left: -5px;
+}
+.chartTitle:before {
+	border-color: white;
+	border-bottom-color: white;
+	opacity: 0.1;
+	border-width: 36px;
+	margin-left: -36px;
+	margin: 2px;
+}
+#tif-chart-container #canvas {
+	margin: 15px;
 }
